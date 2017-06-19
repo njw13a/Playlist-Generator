@@ -1,0 +1,469 @@
+MonstercatMedia channel ID = UCJ6td3C9QlPO9O_J5dF4ZzA
+
+API key = AIzaSyDIbJw0VKn8HpY0_eoj7rmbVwVZULAB9yU
+
+Returns channel ID: https://www.googleapis.com/youtube/v3/channels?part=id&forUsername=MonstercatMedia&key=AIzaSyDIbJw0VKn8HpY0_eoj7rmbVwVZULAB9yU
+------------------------
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/MAZez5HpQPI4g43X0RVuV_ZIHoc\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/6ZGi5w6vBpleNI6CRioQUXHFDUw\"",
+   "id": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+   "snippet": {
+    "title": "Monstercat",
+    "description": "Monstercat is a new-age Record Label. It is the convergence of an independent label, tech startup and media company. We empower creative people, musicians, artists, developers, entrepreneurs, and influencers young and old. We looked at the problems within the music industry, asked “why not” and have created the “how to”.\n\nIf you would like to use Monstercat's music in your own videos or Twitch streams: https://license.monstercat.com\n\nSubscribe for new Monstercat Releases every Monday, Wednesday and Friday!\n\nMonstercat Uncaged - Vol. 1 Available now! - https://Monstercat.lnk.to/Uncaged",
+    "customUrl": "monstercat",
+    "publishedAt": "2011-07-02T01:09:28.000Z",
+    "thumbnails": {
+     "default": {
+      "url": "https://yt3.ggpht.com/-ZeRv929WhoQ/AAAAAAAAAAI/AAAAAAAAAAA/VO36-n0hPqQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "medium": {
+      "url": "https://yt3.ggpht.com/-ZeRv929WhoQ/AAAAAAAAAAI/AAAAAAAAAAA/VO36-n0hPqQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     },
+     "high": {
+      "url": "https://yt3.ggpht.com/-ZeRv929WhoQ/AAAAAAAAAAI/AAAAAAAAAAA/VO36-n0hPqQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+     }
+    },
+    "localized": {
+     "title": "Monstercat",
+     "description": "Monstercat is a new-age Record Label. It is the convergence of an independent label, tech startup and media company. We empower creative people, musicians, artists, developers, entrepreneurs, and influencers young and old. We looked at the problems within the music industry, asked “why not” and have created the “how to”.\n\nIf you would like to use Monstercat's music in your own videos or Twitch streams: https://license.monstercat.com\n\nSubscribe for new Monstercat Releases every Monday, Wednesday and Friday!\n\nMonstercat Uncaged - Vol. 1 Available now! - https://Monstercat.lnk.to/Uncaged"
+    }
+   }
+  }
+ ]
+}
+------------------------
+
+
+Returns the list of playlists: https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=UCJ6td3C9QlPO9O_J5dF4ZzA&key=AIzaSyDIbJw0VKn8HpY0_eoj7rmbVwVZULAB9yU
+------------------------
+{
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hhRFe86_PbayTwMKj0FOghWtsWA\"",
+ "nextPageToken": "CAUQAA",
+ "pageInfo": {
+  "totalResults": 23,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/q7zJ0a2_hEMijPQi_TFUA5axtAg\"",
+   "id": "PLe8jmEHFkvsahDl5a1yepu60rWxKn8rbT",
+   "snippet": {
+    "publishedAt": "2017-06-06T18:29:48.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Rocket League x Monstercat Vol. 1",
+    "description": "Rocket League: \"We’re teaming up with Monstercat on a brand new default music playlist, Rocket League x Monstercat, with 18 tracks coming to our in-game soundtrack on July 5! Four tracks are being released early starting this week, with the remaining 14 tracks making their worldwide debut inside Rocket League next month!\"",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Q2IaKsHFjr8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Q2IaKsHFjr8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Q2IaKsHFjr8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Q2IaKsHFjr8/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "localized": {
+     "title": "Rocket League x Monstercat Vol. 1",
+     "description": "Rocket League: \"We’re teaming up with Monstercat on a brand new default music playlist, Rocket League x Monstercat, with 18 tracks coming to our in-game soundtrack on July 5! Four tracks are being released early starting this week, with the remaining 14 tracks making their worldwide debut inside Rocket League next month!\""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/4tdkrNSU5hMRL2tMXPvBZ6fthNY\"",
+   "id": "PLe8jmEHFkvsbeJL2QNucGv00eO8PKbSUn",
+   "snippet": {
+    "publishedAt": "2017-01-27T19:14:35.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Our Family",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/lrMfvqOj1Kc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/lrMfvqOj1Kc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/lrMfvqOj1Kc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/lrMfvqOj1Kc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/lrMfvqOj1Kc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Monstercat",
+    "localized": {
+     "title": "Our Family",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/qOfhBdoNxRkcq1fy5SvoxZWv8hQ\"",
+   "id": "PLe8jmEHFkvsYrxzTDLXL4sqXKF7TOWy59",
+   "snippet": {
+    "publishedAt": "2017-01-03T22:54:19.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Mix Contest 2016",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Td-mEZxMoTw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Td-mEZxMoTw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Td-mEZxMoTw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Td-mEZxMoTw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "localized": {
+     "title": "Mix Contest 2016",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/sCGIqiAMs3X4tGOB-rgPHR6BeOw\"",
+   "id": "PLe8jmEHFkvsYD_ruHBPy-0kIsLJ2eXjba",
+   "snippet": {
+    "publishedAt": "2016-09-07T20:53:00.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Monstercat In Motion",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/wtUGAcLT6Rk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/wtUGAcLT6Rk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/wtUGAcLT6Rk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/wtUGAcLT6Rk/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "localized": {
+     "title": "Monstercat In Motion",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/pKK0QLVq6kT5Ro4r2sLybsxCe0g\"",
+   "id": "PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q",
+   "snippet": {
+    "publishedAt": "2014-10-06T18:54:23.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Trap",
+    "description": "The best of Monstercat Trap.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "localized": {
+     "title": "Trap",
+     "description": "The best of Monstercat Trap."
+    }
+   }
+  }
+ ]
+}
+------------------------
+
+Returns a list of the playlist items: https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q&key=AIzaSyDIbJw0VKn8HpY0_eoj7rmbVwVZULAB9yU
+------------------------
+{
+ "kind": "youtube#playlistItemListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/nN2sjNBmrUvYWztMy7CPisqmAfk\"",
+ "nextPageToken": "CAUQAA",
+ "pageInfo": {
+  "totalResults": 47,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/0f6BU-6ltvplKkk-utho-Z42UMo\"",
+   "id": "UExlOGptRUhGa3ZzWXY1Q1Y3d1NMWms3VUc0MUtZOHFfUS40QzRDOEU0QUYwNUIxN0M1",
+   "snippet": {
+    "publishedAt": "2017-06-02T18:08:27.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Dirty Audio - Alien Cookies [Monstercat Release]",
+    "description": "🎧 Support on all platforms: https://Monstercat.lnk.to/AlienCookies\n\n▼ Follow Monstercat\nSnapchat: https://www.snapchat.com/add/monstercat\nYouTube: http://www.youtube.com/Monstercat\nSpotify: http://monster.cat/1hGrCWk\nFacebook: http://facebook.com/Monstercat\nTwitter: http://twitter.com/Monstercat\nInstagram: http://instagram.com/monstercat\nVine: https://vine.co/monstercat\nSoundCloud: http://soundcloud.com/Monstercat\nGoogle+: https://plus.google.com/+Monstercat\nMonstercat FM: http://live.monstercat.com\n\n💥  Follow Dirty Audio\nFacebook: https://www.facebook.com/djdirtyaudio\nTwitter: https://twitter.com/dirtyaudio\nSoundcloud: https://soundcloud.com/dirtyaudio\nInstagram: https://www.instagram.com/dirtyaudio\n\nGenre: Trap\n\n▼ Want some new Merchandise?\nhttp://monster.cat/MonstercatShop",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/GhHIqrK3sdc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "playlistId": "PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "GhHIqrK3sdc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/d1CyWaRyOH_5OeaOTu3Ei-xJePY\"",
+   "id": "UExlOGptRUhGa3ZzWXY1Q1Y3d1NMWms3VUc0MUtZOHFfUS4yQUJFNUVCMzVDNjcxRTlF",
+   "snippet": {
+    "publishedAt": "2017-05-15T18:11:29.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Reach - Throw Handz [Monstercat Release]",
+    "description": "🎧  Support on all platforms: https://Monstercat.lnk.to/ThwHandz\n\n👻 Snapchat: https://www.snapchat.com/add/monstercat\n\n😺  Follow Monstercat\nSnapchat: https://www.snapchat.com/add/monstercat\nYouTube: http://www.youtube.com/Monstercat\nSpotify: http://monster.cat/1hGrCWk\nFacebook: http://facebook.com/Monstercat\nTwitter: http://twitter.com/Monstercat\nInstagram: http://instagram.com/monstercat\nVine: https://vine.co/monstercat\nSoundCloud: http://soundcloud.com/Monstercat\nGoogle+: https://plus.google.com/+Monstercat\nMonstercat FM: http://live.monstercat.com\n\n💥 Follow Reach\nFacebook: https://www.facebook.com/unofficialreach\nTwitter: https://twitter.com/unofficialreach\nSoundcloud: https://soundcloud.com/imreach\nInstagram: https://www.instagram.com/unofficialreach\n\n🎵  Genre: Trap\n\n👕 Want some new Merchandise?\nhttp://monster.cat/MonstercatShop",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0uUOoalHbt8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0uUOoalHbt8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0uUOoalHbt8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/0uUOoalHbt8/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "playlistId": "PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q",
+    "position": 1,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "0uUOoalHbt8"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/leZr8C3OYSfuj9z3euamRvDQU8Q\"",
+   "id": "UExlOGptRUhGa3ZzWXY1Q1Y3d1NMWms3VUc0MUtZOHFfUS4yQjZFRkExQjFGODk3RUFD",
+   "snippet": {
+    "publishedAt": "2017-05-08T18:11:42.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Rogue x Stonebank x Slips & Slurs - Unity [Monstercat Release]",
+    "description": "🎧  Support on all platforms: https://Monstercat.lnk.to/Uncaged\n\n👻 Snapchat: https://www.snapchat.com/add/monstercat\n\n😺  Follow Monstercat\nSnapchat: https://www.snapchat.com/add/monstercat\nYouTube: http://www.youtube.com/Monstercat\nSpotify: http://monster.cat/1hGrCWk\nFacebook: http://facebook.com/Monstercat\nTwitter: http://twitter.com/Monstercat\nInstagram: http://instagram.com/monstercat\nSoundCloud: http://soundcloud.com/Monstercat\nGoogle+: https://plus.google.com/+Monstercat\nMonstercat FM: http://live.monstercat.com\n\n💥  Follow Rogue\nFacebook: http://facebook.com/RogueUK\nTwitter: http://twitter.com/RogueMoosic\nSoundcloud: http://soundcloud.com/rogueuk\nYoutube: http://youtube.com/roguemoosic\n\n💥  Follow Stonebank\nFacebook: https://www.facebook.com/StonebankMusic\nTwitter: https://twitter.com/stonebankmusic\nSoundcloud: https://soundcloud.com/stonebank\n\n💥  Follow Slips & Slurs\nFacebook: http://www.facebook.com/slipsandslurs\nTwitter: http://twitter.com/slipsandslurs\nSoundCloud: http://www.soundcloud.com/slipsandslurs \nInstagram: http://instagram.com/slipsandslurs\nYouTube: https://www.youtube.com/c/SlipsSlurs\n\n🎵  Genre: Trap\n\n👕 Want some new Merchandise?\nhttp://monster.cat/MonstercatShop",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/t706ljMINw0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/t706ljMINw0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/t706ljMINw0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/t706ljMINw0/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "playlistId": "PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q",
+    "position": 2,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "t706ljMINw0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/50cGiV9k-KzPMZpbCI0QHuEtDxE\"",
+   "id": "UExlOGptRUhGa3ZzWXY1Q1Y3d1NMWms3VUc0MUtZOHFfUS41MzY4MzcwOUFFRUU3QzEx",
+   "snippet": {
+    "publishedAt": "2017-03-27T18:14:13.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "Slips & Slurs x Holly - Turmoil [Monstercat Release]",
+    "description": "🎧  Support on all platforms: https://Monstercat.lnk.to/Turmoil\n\n👻 Snapchat: https://www.snapchat.com/add/monstercat\n\n😺  Follow Monstercat\nSnapchat: https://www.snapchat.com/add/monstercat\nYouTube: http://www.youtube.com/Monstercat\nSpotify: http://monster.cat/1hGrCWk\nFacebook: http://facebook.com/Monstercat\nTwitter: http://twitter.com/Monstercat\nInstagram: http://instagram.com/monstercat\nVine: https://vine.co/monstercat\nSoundCloud: http://soundcloud.com/Monstercat\nGoogle+: https://plus.google.com/+Monstercat\nMonstercat FM: http://live.monstercat.com\n\n💥  Follow Slips & Slurs\nFacebook: http://www.facebook.com/slipsandslurs\nTwitter: http://twitter.com/slipsandslurs\nSoundCloud: http://www.soundcloud.com/slipsandslurs\n\n💥 Follow Holly\nFacebook: https://www.facebook.com/beatsbyholly\nTwitter: https://twitter.com/miguel_holly\nSoundcloud: https://soundcloud.com/hollyhollys\n\n🎵  Genre: Trap\n\n👕 Want some new Merchandise?\nhttp://monster.cat/MonstercatShop",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Im9FdEb0hQE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Im9FdEb0hQE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Im9FdEb0hQE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Im9FdEb0hQE/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "playlistId": "PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q",
+    "position": 3,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Im9FdEb0hQE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/bwxfjPK24QfR8yDkyWSMUet9RQQ\"",
+   "id": "UExlOGptRUhGa3ZzWXY1Q1Y3d1NMWms3VUc0MUtZOHFfUS5DRUQwODMxQzUyRTlGRkY3",
+   "snippet": {
+    "publishedAt": "2017-03-17T18:15:17.000Z",
+    "channelId": "UCJ6td3C9QlPO9O_J5dF4ZzA",
+    "title": "KUURO - Bandit [Monstercat Release]",
+    "description": "🎧  Support on all platforms: https://Monstercat.lnk.to/Bandit\n\n👻 Snapchat: https://www.snapchat.com/add/monstercat\n\n😺  Follow Monstercat\nSnapchat: https://www.snapchat.com/add/monstercat\nYouTube: http://www.youtube.com/Monstercat\nSpotify: http://monster.cat/1hGrCWk\nFacebook: http://facebook.com/Monstercat\nTwitter: http://twitter.com/Monstercat\nInstagram: http://instagram.com/monstercat\nVine: https://vine.co/monstercat\nSoundCloud: http://soundcloud.com/Monstercat\nGoogle+: https://plus.google.com/+Monstercat\nMonstercat FM: http://live.monstercat.com\n\n💥 Follow KUURO\nFacebook: https://www.facebook.com/kuuromusic\nTwitter: https://twitter.com/kuuromusic\nSoundcloud: https://soundcloud.com/KUUROMUSIC\nInstagram: https://www.instagram.com/kuuromusic\n\n🎵  Genre: Trap\n\n👕 Want some new Merchandise?\nhttp://monster.cat/MonstercatShop",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/uLiCy422lkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/uLiCy422lkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/uLiCy422lkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/uLiCy422lkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "Monstercat",
+    "playlistId": "PLe8jmEHFkvsYv5CV7wSLZk7UG41KY8q_Q",
+    "position": 4,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "uLiCy422lkQ"
+    }
+   }
+  }
+ ]
+}
+------------------------

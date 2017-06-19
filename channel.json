@@ -1,0 +1,15 @@
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/yOa0tT2l-3cmxYBnwtYNBt_L_Ws\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/a2DUd2LnnbXYFc12ldXw9nHTpAQ\"",
+   "id": "UCJ6td3C9QlPO9O_J5dF4ZzA"
+  }
+ ]
+}
